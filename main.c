@@ -15,16 +15,21 @@ int main(int argc, char **argv){
    
      for(j=0;j<strlen(argv[i]);j++){
        /* Use stack to help with the parentheses*/
-       switch(argv[i][j]){
-        
+       switch(argv[i][j])
+       {
+        case 1 :
        }
-    if(check ) break;
+       
 
+    if(check ) break;
      }
-    if(s.size>0||check)
+
+    if(s.size=0||check)
       printf("The parentheses match successfully for %s\n",argv[i]);
+    if(s.size>0) printf("The parentheses not match");
       check=0;
       pop_all(&s);
+    
 
   }
 
