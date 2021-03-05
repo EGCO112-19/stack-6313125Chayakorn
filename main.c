@@ -6,6 +6,7 @@
 int main(int argc, char **argv){
   printf("Checking the parentheses in argv arguments\n");
   int i,N,j;
+  int check=0;
   
   Stack s;
   s.size=0;
